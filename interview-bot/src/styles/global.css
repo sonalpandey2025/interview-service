@@ -1,0 +1,11 @@
+/* src/styles/global.css */
+:root {
+  --font-primary: 'Arial, sans-serif';
+  --bg-main: #f3f6fb;
+  --bg-card: white;
+  --border-radius: 10px;
+  --box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  --color-timer: #333;
+  --color-recording: red;
+  --color-live-label: #000;
+}

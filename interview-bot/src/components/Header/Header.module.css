@@ -1,0 +1,66 @@
+.header{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+}
+.headerDetails{
+    height: 100%;
+}
+.headerDetailsContainer{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.icon{
+width: 9.5rem;
+height: 3.3rem;
+}
+
+.verticalBar {
+  width: 0.1rem;
+  height: calc(100% - 1.5rem);
+  background-color: #666;
+  margin: 0 2rem;
+}
+.headerText{
+
+}
+.title{
+    font-size: 1.2rem;
+    color: #66676A;
+}
+.subtitle{
+    font-size: 0.7rem;
+    color: #C4C5C9;
+}
+.options{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.btnConatiner{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.btn{
+    padding: 0.8rem 1.1rem;
+    border-radius: 1.5rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.whiteBtn{
+    background-color: #FFFFFF;
+    font-weight: 600;
+    font-size: 12px;
+}
+.greenBtn{
+    background-color: #34c759;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 12px;
+}
